@@ -17,4 +17,6 @@ console.log(myObj.name);
 console.log(myObj["age"]); //since behind the scene key is also stored as string
 console.log(myObj[mySym]); //to use symbol as the key
 
-//if we dont want anyone to chnge the value
+//if we dont want anyone to chnge the value we can freeze as
+// Object.freeze(myObj);
+// console.log(myObj);
