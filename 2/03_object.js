@@ -15,4 +15,6 @@ let myObj = {
 //to access the object values
 console.log(myObj.name);
 console.log(myObj["age"]); //since behind the scene key is also stored as string
-console.log(myObj[mySym]);
+console.log(myObj[mySym]); //to use symbol as the key
+
+//if we dont want anyone to chnge the value
