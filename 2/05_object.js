@@ -6,5 +6,5 @@ const newObj = {
 };
 
 // we generally use newObj.name etc. but we can also use
-const { college } = newObj;
-console.log(college);
+const { college: clg } = newObj;
+console.log(clg);
